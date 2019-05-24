@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Music App</string>
+
+    <string name="more">More</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+        has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+        and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+        PageMaker including versions of Lorem Ipsum.
+    </string>
+    <string name="total_track">Total Track</string>
+    <string name="released">Released</string>
+    <string name="genre">Genre</string>
+    <string name="description">Description</string>
+    <string name="track">Track</string>
+    <string name="album">Album</string>
+    <string name="track_no">Track No.</string>
+    <string name="suggestion">Suggestion</string>
+    <string name="formed_year">Formed Year</string>
+    <string name="playBack_channelName">1</string>
+
+    <string name="string_remove_from_playlist">Remove from playlist?</string>
+    <string name="string_yes">yes</string>
+    <string name="string_no">no</string>
+    <string name="label_stop">Stop</string>
+    <string name="label_pause">Pause</string>
+    <string name="label_play">Play</string>
+    <string name="label_play_pause">Play and pause toggle</string>
+    <string name="label_previous">Previous track</string>
+    <string name="label_next">Next track</string>
+
+    <string name="media_url">http://mp3.drbachinese.org/online_audio/chants/LengYanZhou_XueXiBan_DRBA.mp3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

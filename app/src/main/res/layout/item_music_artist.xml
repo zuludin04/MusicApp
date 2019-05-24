@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+    <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/artist_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="#70555555"/>
+
+    <TextView
+            android:id="@+id/artist_logo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="@+id/artist_background"
+            app:layout_constraintTop_toTopOf="@+id/artist_background"
+            app:layout_constraintEnd_toEndOf="@+id/artist_background"
+            app:layout_constraintBottom_toBottomOf="@+id/artist_background"
+            tools:text="Ar"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="16sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/artist_background"
+            app:layout_constraintTop_toTopOf="@+id/artist_background"
+            android:layout_marginStart="8dp"
+            android:id="@+id/artist_name"
+            tools:text="Artist"
+            android:textSize="15sp"
+            android:textColor="#555"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/artist_background"
+            app:layout_constraintBottom_toBottomOf="@+id/artist_background"
+            tools:text="3 tracks"
+            android:textSize="13sp"
+            android:layout_marginStart="8dp"
+            android:id="@+id/artist_tracks"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
